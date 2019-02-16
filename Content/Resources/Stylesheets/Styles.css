@@ -1,90 +1,117 @@
 /*<meta />*/
 
-body
-{
-	font-family: Arial;
-}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-h1
-{
-	font-weight: bold;
-	font-size: 24.0pt;
-}
-
-h2
-{
-	font-weight: bold;
-	font-size: 18.0pt;
-}
-
-h3
-{
-	font-weight: bold;
-	font-size: 14.0pt;
-}
-
-h4
-{
-	font-weight: bold;
-	font-size: 12.0pt;
-}
-
-h5
-{
-	font-weight: bold;
-	font-size: 10.0pt;
-}
-
-h6
-{
-	font-weight: bold;
-	font-size: 8.0pt;
-}
-
-p
-{
-	font-size: 12.0pt;
-	margin-top: 0pt;
-	margin-bottom: 0pt;
-}
-
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
 ol,
-ul
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video
 {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
-img
+#mastHead
 {
-	border: none;
+	background-color: #fafafa;
+	background: -moz-linear-gradient(#fafafa,#eaeaea);
+	background: -webkit-linear-gradient(#fafafa,#eaeaea);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#eaeaea')";
+	position: relative;
+	z-index: 10;
+	border-bottom: 1px solid #cacaca;
+	box-shadow: 0 1px 0 rgba(255,255,255,.4), 0 0 10px rgba(0,0,0,.1);
+	height: 60px;
 }
 
-a.Popup
+#logo
 {
-	
-}
-
-MadCap|expandingHead
-{
-	font-style: italic;
-	font-weight: normal;
-	cursor: hand;
-	text-decoration: none;
-	color: #006600;
-}
-
-MadCap|expandingBody
-{
-	color: #777777;
-	font-style: italic;
-}
-
-MadCap|dropDownHotspot
-{
-	cursor: hand;
-	font-style: italic;
-	text-decoration: none;
-	color: #006600;
+	background-image: url('../Images/Logos/so-labs-logo.svg');
+	background-repeat: no-repeat;
+	line-height: 70px;
 }
 

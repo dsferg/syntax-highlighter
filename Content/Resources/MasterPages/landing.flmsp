@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <div id="frame">
+            <div id="mastHead">
+                <img src="../Images/Logos/so-labs-logo.png" id="logo" />
+            </div>
+            <div id="landingTopicBody">
+                <MadCap:bodyProxy />
+            </div>
+        </div>
+    </body>
+</html>
