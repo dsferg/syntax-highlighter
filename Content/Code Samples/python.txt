@@ -1,27 +1,22 @@
-#!/usr/bin/python3
-#
-# Python program to demonstrate for loops.
-#
+﻿# Python program to check if the input number is prime or not
 
-# The for loop goes through a list, like foreach in
-# some other languages.  A useful construct.
-for x in ['Bill', 'Alice', 'Joe', 'Sue' ]:
-    print(x, 'likes jelly beans.')
+num = 407
 
-# The range operator simply creates a list of numbers
-# in the indicated range.  Note that the range ends
-# before the second argument.
-print(range(5, 10))
+# take input from the user
+# num = int(input("Enter a number: "))
 
-# Range works with for to create the traditional for loop.
-for y in range(2, 10):
-    print(y,end=' ')
-print()
-
-for y in range(2, 10, 2):
-    print(y,end=' ')
-print()
-
-for y in range(20, 10, -1):
-    print(y,end=' ')
-print()
+# prime numbers are greater than 1
+if num > 1:
+   # check for factors
+   for i in range(2,num):
+       if (num % i) == 0:
+           print(num,"is not a prime number")
+           print(i,"times",num//i,"is",num)
+           break
+   else:
+       print(num,"is a prime number")
+       
+# if input number is less than
+# or equal to 1, it is not prime
+else:
+   print(num,"is not a prime number")
