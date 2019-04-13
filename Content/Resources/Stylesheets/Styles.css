@@ -1,56 +1,85 @@
-﻿/*<meta />*/
+/*<meta />*/
 
-h1 {
-  font-weight: bold;
-  font-size: 24pt;
+h1
+{
+	font-weight: bold;
+	font-size: 24pt;
 }
-h2 {
-  font-weight: bold;
-  font-size: 18pt;
+
+h2
+{
+	font-weight: bold;
+	font-size: 18pt;
 }
-h3 {
-  font-weight: bold;
-  font-size: 14pt;
+
+h3
+{
+	font-weight: bold;
+	font-size: 14pt;
 }
-h4 {
-  font-weight: bold;
-  font-size: 12pt;
+
+h4
+{
+	font-weight: bold;
+	font-size: 12pt;
 }
-h5 {
-  font-weight: bold;
-  font-size: 10pt;
+
+h5
+{
+	font-weight: bold;
+	font-size: 10pt;
 }
-h6 {
-  font-weight: bold;
-  font-size: 8pt;
+
+h6
+{
+	font-weight: bold;
+	font-size: 8pt;
 }
-p {
-  font-size: 12pt;
-  margin-top: 0pt;
-  margin-bottom: 0pt;
+
+p
+{
+	font-size: 12pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
 }
+
 ol,
-ul {
-  margin-top: 0px;
-  margin-bottom: 0px;
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
-img {
-  border: none;
+
+img
+{
+	border: none;
 }
-MadCap|expandingHead {
-  font-style: italic;
-  font-weight: normal;
-  cursor: hand;
-  text-decoration: none;
-  color: #006600;
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
 }
-MadCap|expandingBody {
-  color: #777777;
-  font-style: italic;
+
+MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
 }
-MadCap|dropDownHotspot {
-  cursor: hand;
-  font-style: italic;
-  text-decoration: none;
-  color: #006600;
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+	color: #006600;
 }
+
+body
+{
+	font-family: Arial;
+}
+
