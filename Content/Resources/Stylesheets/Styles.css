@@ -1,40 +1,5 @@
-/*<meta />*/
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Nunito Sans Italic'), local('NunitoSans-Italic'), url(https://fonts.gstatic.com/s/nunitosans/v4/pe0oMImSLYBIv1o4X1M8cce4E9lKcw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Nunito Sans Bold Italic'), local('NunitoSans-BoldItalic'), url(https://fonts.gstatic.com/s/nunitosans/v4/pe01MImSLYBIv1o4X1M8cce4G2JvY1MIVw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Nunito Sans Regular'), local('NunitoSans-Regular'), url(https://fonts.gstatic.com/s/nunitosans/v4/pe0qMImSLYBIv1o4X1M8cce9I94.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Nunito Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Nunito Sans Bold'), local('NunitoSans-Bold'), url(https://fonts.gstatic.com/s/nunitosans/v4/pe03MImSLYBIv1o4X1M8cc8GBs5tU1Q.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v6/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf) format('truetype');
-}
-body {
-  font-family: 'Nunito Sans Regular';
-}
-code {
-  font-family: 'Roboto Mono';
-}
+﻿/*<meta />*/
+
 h1 {
   font-weight: bold;
   font-size: 24pt;
